@@ -1,10 +1,15 @@
 def join_ingredients(src)
   
-  join_ingredients = []
-  
-  i = 0 
-  while i < join_ingredients.count do
-    element_index = 0
+   result = []
+
+  i = 0
+  while i < src.length do
+    inner = src[i]
+    result << "I love #{inner[0]} and #{inner[1]} on my pizza"
+    i += 1
+  end
+
+  result
     
   
   
