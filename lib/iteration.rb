@@ -4,6 +4,7 @@ def join_ingredients(src)
   
   i = 0 
   while i < join_ingredients.count do
+    element_index = 0
     
   
   
